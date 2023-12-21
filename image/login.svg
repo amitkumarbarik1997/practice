@@ -1,0 +1,10 @@
+<svg id="login" xmlns="http://www.w3.org/2000/svg" width="22.067" height="22.328" viewBox="0 0 22.067 22.328">
+  <g id="Group_3" data-name="Group 3" transform="translate(0 0)">
+    <g id="Group_2" data-name="Group 2">
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="1.21" height="1.21" transform="translate(20.857 10.225)" fill="#333"/>
+      <rect id="Rectangle_5" data-name="Rectangle 5" width="1.21" height="1.21" transform="translate(18.436 10.225)" fill="#333"/>
+      <path id="Path_1" data-name="Path 1" d="M228.952,197.9l-.988-.987-2.589,2.589,2.589,2.589.988-.988-.9-.9h4.25v-1.4h-4.25Z" transform="translate(-215.539 -188.327)" fill="#333"/>
+      <path id="Path_2" data-name="Path 2" d="M12.571,19.08a.7.7,0,0,1-.7.7H8.38V5.134A2.78,2.78,0,0,0,6.624,2.54l-2.3-.92h7.548a.7.7,0,0,1,.7.7V7.208h1.4V2.319a2.1,2.1,0,0,0-2.1-2.1H0V21l4.785,1.436a2.819,2.819,0,0,0,.81.12,2.74,2.74,0,0,0,2.384-1.377h3.894a2.1,2.1,0,0,0,2.1-2.1V15.588h-1.4Zm-5.587.676a1.4,1.4,0,0,1-1.8,1.338L1.4,19.957v-18L6.106,3.84a1.388,1.388,0,0,1,.878,1.294Z" transform="translate(0 -0.224)" fill="#333"/>
+    </g>
+  </g>
+</svg>

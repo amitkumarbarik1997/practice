@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./icomoon/style.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./image/vidyavahini.png">
+    <title>e-Vidya Vahini</title>
+</head>
+
+<body>
+    <header>
+        <div class="top-nav">
+            <div class="container">
+                <div class="top-nav-content">
+                    <ul class="contact-list">
+                        <li>
+                            <span class="icon-phone-call"></span>
+                            State Helpline No : 
+                            <a href="tel:18005728585/01246238339">18005728585/01246238339</a>
+                        </li>
+                        <li>
+                            <span class="icon-mail"></span>
+                            Email : 
+                            <a href="mailto:jepcranchi1@gmail.com">jepcranchi1@gmail.com
+
+                        </li>
+                    </ul>
+                    <a href="javascript:void(0)" class="login-btn"><span class="icon-login"></span>eVV Login</a>
+                </div>
+
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <div class="nav-bar">
+                    <a href="javascript:void(0)">
+                        <img src="./image/logo.png" alt="logo">
+                    </a>
+                    <span class="icon-align-right menu-icon" onclick="openMenu()"></span>
+                    <div class="navbar-collapse">
+                        <div class="close-menu-box">
+                            <span class="icon-cancel close-menu" onclick="closeMenu()"></span>
+
+                        </div>
+                        
+                        <ul class="nav-menu">
+
+                            <li class="nav-item">
+                                <a class="nav-link active" href="javascript:void(0)">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)" >About EVV </a>
+                                <div class="sub-menu">
+                                    <div class="container">
+                                        <div class="submenu-wrapper">
+                                            <a href="javascript:void(0)">About the Department</a>
+                                            <a href="javascript:void(0)">Function</a>
+                                            <a href="javascript:void(0)"> Organizational Structure </a>
+                                            <a href="javascript:void(0)"> Who's Who </a>
+                                            <a href="javascript:void(0)"> What's New </a>
+                                            <a href="javascript:void(0)"> Contact Us </a>
+
+                                        </div>
+                                        
+                                    </div>
+
+
+                                </div>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)">Notification</a>
+                                <div class="sub-menu">
+                                    <div class="container">
+                                        <div class="submenu-wrapper">
+                                            <a href="javascript:void(0)">Notofication-1</a>
+                                            <a href="javascript:void(0)">Function</a>
+                                            <a href="javascript:void(0)"> Organizational Structure </a>
+                                            <a href="javascript:void(0)"> Who's Who </a>
+                                            <a href="javascript:void(0)"> What's New </a>
+                                            <a href="javascript:void(0)"> Contact Us </a>
+
+                                        </div>
+                                        
+                                    </div>
+
+
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)" onclick="showdropdown()">Help/FAQ <span class="icon-chevron-down"></span></a>
+                                <div class="dropdown-menu">
+                                    <a href="javascript:void(0)"> Who's Who </a>
+                                    <a href="javascript:void(0)"> What's New </a>
+                                    <a href="javascript:void(0)"> Contact Us </a>
+
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)">
+                                    <img src="./image/jharkhand.png" alt="jharkhand-govt-logo">
+                                </a>
+
+                            </li>
+
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="hero-section">
+
+        
+        <div class="slider">
+            <div class="slide">
+                <img src="./image/banner-1.png"
+                    alt="banner-1" />
+            </div>
+            <div class="slide">
+                <img src="./image/banner-1.png"
+                alt="banner-2" />
+            </div>
+            <div class="slide">
+                <img src="./image/banner-1.png"
+                alt="banner-3" />
+            </div>
+            <div class="slide">
+                <img src="./image/banner-1.png"
+                alt="banner-4" />
+            </div>
+
+            <button class="btn-slide prev"><i class="fas fa-3x fa-chevron-circle-left"></i></button>
+            <button class="btn-slide next"><i class="fas fa-3x fa-chevron-circle-right"></i></button>
+
+        </div>
+        <div class="dots-container">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+            <span class="dot" data-slide="3"></span>
+        </div>
+    </div>
+        <div class="announcement-wrapper">
+            <div class="container">
+                <div class="announcement-box">
+                    <div class="anouncement_title">
+                        Announcement :
+
+                    </div>
+
+                    <marquee behavior="scroll" direction="left" onmouseover="this.stop()" onmouseout="this.start()">
+                        <a href="javascript:void(0)" ><strong>1.</strong> Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                        </a>
+
+                        <a href="javascript:void(0)"><strong>2.</strong> Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</a>
+                    </marquee>
+
+                </div>
+
+            </div>
+        </div>
+        <section>
+            <div class="container">
+                <div class="govt-body-wrapper">
+                    <div class="card">
+                        <div class="card_img">
+                            <img src="./image/Soren_new_570_850.png" alt=" Hon'ble Chief Minister">
+
+                        </div>
+                        <div class="card-body">
+                            <p class="card_name">Hemant Soren </p>
+                            <span class="card_designation">Hon'ble Chief Minister</span>
+
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="card">
+                        <div class="card_img">
+                            <img src="./image/Soren_new_570_850.png" alt=" Hon'ble Chief Minister">
+                        </div>
+                        <div class="card-body">
+                            <p class="card_name">Shri Jagarnath Mahto </p>
+                            <span class="card_designation">Hon'ble Education Minister</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_img">
+                            <img src="./image/Soren_new_570_850.png" alt=" Hon'ble Chief Minister">
+                        </div>
+                        <div class="card-body">
+                            <p class="card_name">Shri Rajesh Kumar Sharma</p>
+                            <span class="card_designation"> Secretary</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_img">
+                            <img src="./image/Soren_new_570_850.png" alt=" Hon'ble Chief Minister">
+                        </div>
+                        <div class="card-body">
+                            <p class="card_name">Sri Shailesh Kumar Chourasia </p>
+                            <span class="card_designation">State Project Director</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-gray">
+            <div class="container">
+                <h2 class="section-heading">About eVV</h2>
+                <div class="about-box">
+                    <div class="about_text">
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                            more-or-less normal distribution of letters, as opposed to using 'Content here, content
+                            here', making it look like readable English. Many desktop publishing packages and web page
+                            editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will
+                            uncover many web sites still in their infancy. Various versions have evolved over the years,
+                            sometimes by accident, sometimes on purpose (injected humour and the like).
+                        </p>
+
+                        <a href="javascript:void(0)" class="read-btn mt-3">Read More..</a>
+
+
+
+
+                    </div>
+                    <div class="Secretary-message-card">
+                        <div class="msg-title">
+                            <span class="icon-right-quote"></span>
+                            <p>Secretary Message</p>
+                        </div>
+                        <div class="Secretary_message_card_body">
+                            <div class="secretary_profile">
+                                <div class="card_img">
+                                    <img src="./image/secretary-1.png" alt="secretary-img">
+                                </div>
+                                <div>
+                                    <p class="card_name">Shri Rajesh Kumar Sharma </p>
+                                    <span class="card_designation">Secretary</span>
+
+                                </div>
+
+
+                            </div>
+                            <p class="secretary_msg">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration in some form, by injected humour, or randomised words which don't
+                                look even slightly believable. If you are going to use a passage of Lorem Ipsum, you
+                                need to be sure there isn't anything embarrassing hidden in the middle of text.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <div class="container">
+                <h2 class="section-heading">
+                    Dashboard eVV and Digi School
+
+                </h2>
+                <div class="dashboard-card-wrapper">
+                    <div class="dashboard-card card-blue">
+                        <div class="dashboard_card_bg">
+                            <div class="dashboard_card_top">
+                                <span class="icon-school icon"></span>
+                                <span class="dashboard_card_title">
+                                    Number of <br> Govt. School
+                                </span>
+                                <span class="dashboard_card_count">35455</span>
+
+                            </div>
+                            <div class="dashboard_card_bottom">
+                                <span class="dashboard_card_bottom_text">
+                                    No of Schools <br>Visited by BRP/CRP
+                                </span>
+                                <span class="dashboard_card_bottom_count">
+                                    0
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="dashboard-card card-green">
+                        <div class="dashboard_card_bg">
+                            <div class="dashboard_card_top">
+                                <span class="icon-teacher icon"></span>
+                                <span class="dashboard_card_title">
+                                    Number of <br> Teacher
+                                </span>
+                                <span class="dashboard_card_count">118809</span>
+
+                            </div>
+                            <div class="two-col-buttom">
+                                <div class="dashboard_card_bottom">
+                                    <span class="dashboard_card_bottom_text">
+                                        Total <br> Present
+                                    </span>
+                                    <span class="dashboard_card_bottom_count">
+                                        735
+                                    </span>
+                                </div>
+                                <div class="dashboard_card_bottom">
+                                    <span class="dashboard_card_bottom_text">
+                                        Manual <br>Attendance
+                                    </span>
+                                    <span class="dashboard_card_bottom_count">
+                                        734
+                                    </span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="dashboard-card card-red">
+                        <div class="dashboard_card_bg">
+                            <div class="dashboard_card_top">
+                                <span class="icon-brp-crp icon"></span>
+                                <span class="dashboard_card_title">
+                                    Number of <br> BRP/CRP
+                                </span>
+                                <span class="dashboard_card_count">35455</span>
+
+                            </div>
+                            <div class="dashboard_card_bottom">
+                                <span class="dashboard_card_bottom_text">
+                                    No of Active <br>BRP/CRP
+                                </span>
+                                <span class="dashboard_card_bottom_count">
+                                    0
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="dashboard-card card-purple">
+                        <div class="dashboard_card_bg">
+                            <div class="dashboard_card_top">
+                                <span class="icon-students icon"></span>
+                                <span class="dashboard_card_title">
+                                    Jharkhand Digi School <br> Student Registration
+                                </span>
+                                <span class="dashboard_card_count">35455</span>
+
+                            </div>
+                            <div class="dashboard_card_bottom">
+                                <span class="dashboard_card_bottom_text">
+                                    Total Content <br> Viewed
+                                </span>
+                                <span class="dashboard_card_bottom_count">
+                                    25463
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <section>
+            <div class="container">
+                <div class="important-link-wrapper">
+                    <a href="javascript:void(0)">
+                        <img src="./image/india-gov.png" alt="india.gov.">
+                    </a>
+                    <a href="javascript:void(0)">
+                        <img src="./image/my-gov.png" alt="my-gov">
+                    </a>
+                    <a href="javascript:void(0)">
+                        <img src="./image/rti.png" alt="rti">
+                    </a>
+                    <a href="javascript:void(0)">
+                        <img src="./image/myvisit.png" alt="myvisit">
+                    </a>
+                    <a href="javascript:void(0)">
+                        <img src="./image/vidyavahini.png" alt="vidyavahini">
+                    </a>
+
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <h3>Contact Us</h3>
+                <div class="footer-content">
+                    <div class="footer-info">
+                        <ul>
+                            <li>
+                                <span class="icon-location-pin"></span>
+                                <p>
+                                    Address JEPC, State Project Office, Old HEC High School JSCA Stadium Road,
+                                    Sector 3, Dhurwa, Ranchi-843004, Jharkhand
+                                </p>
+                            </li>
+                            <li>
+                                <span class="icon-phone-call large-icon"></span>
+                                <div>
+                                    <p class="helpline-label">State Helpline No </p>
+                                    <p class="helpline-no">
+                                        <a href="tel:18005728585">18005728585</a>
+                                    </p>
+                                    <p class="helpline-no">
+                                        <a href="tel:01246238339">01246238339</a></p>
+
+                                </div>
+                            </li>
+                            <li>
+                                <span class="icon-mail"></span>
+                                <p class="email">
+                                    Email
+                                    <br>
+                                    <a href="mailto:jepcranchi1@gmail.com">jepcranchi1@gmail.com</a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="app-download-info">
+                        <img src="./image/mobileapp.png" alt="mobile app">
+                        <a href="javascript:void(0)">
+                            <img src="./image/playstore.png" alt="paly-store">
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <div class="footer-bottom">
+            &copy;<span>2023</span> by e- Vidya Vahini. All Rights Reserved
+
+
+        </div>
+
+    </footer>
+
+
+
+    <script src="./js/custom.js"></script>
+</body>
+
+</html>
